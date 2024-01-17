@@ -35,3 +35,8 @@ of the containers was done using the Kubernetes stack.
     - Terraform code to deploy an EC2 instance and host a Jenkins server (WCD course requirement);
     - Terraform code to deploy a functional AWS EKS cluster;
     - Application and database code, Dockerfiles, Docker-compose file, and YAML manifests that will be used by the pipeline. Note: the pipeline code is located in the .github folder.
+
+### shell scripts:
+    - install ec2 instances, vpc, sg,ASG, ALB, 
+    - userdata script to install python, nodejs, docker on ec2 at runtime
+    
